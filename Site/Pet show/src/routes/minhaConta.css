@@ -1,0 +1,131 @@
+#bemVindo{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#sairBtn{
+    background-color: rgba(211, 72, 18, 0.993);
+    opacity: 0.7;
+}
+
+#sairBtn:hover{
+    opacity: 1;
+}
+/*
+#conteinerConta {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1;
+}
+
+#container-forms {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.blocoConta,
+.blocoEndereco {
+  width: 40px;
+  max-width: 100%;
+  padding: 28px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.blocoConta h1,
+.blocoEndereco h1,
+.blocoEndereco h2 {
+  margin: 0 0 5px;
+}
+
+.blocoConta input,
+.blocoEndereco input,
+.blocoEndereco select {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.formMinhaConta {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+  margin: 20px;
+}
+
+form.formCadastroLogin.blocoEndereco{
+    width: 400px;
+    max-width: 100%;
+    height: fit-content;
+    max-height: none;
+    margin: 10px;
+    padding: 28px 20px;
+    box-sizing: border-box;
+    align-self: flex-start;
+
+}
+
+footer.containerRodape {
+  position: static;
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .formsMinhaConta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blocoConta,
+  .blocoEndereco {
+    width: min(400px, 100%);
+  }
+
+  .linhaCampos {
+    flex-direction: column;
+  }
+
+}*/
+
+.formCadastroLogin {
+  gap: 20px;
+}
+
+.formCadastroLogin input {
+  margin-bottom: 10px;
+}
+
+.formCadastroLogin button,
+.formCadastroLogin #Link {
+  margin-top: 10px;
+}
+.formCadastroLogin select {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 18px;
+
+  border-radius: 30px;
+  background-color: #E8E8E8;
+  border: none;
+
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: none;
+  box-sizing: border-box;
+}

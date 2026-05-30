@@ -1,0 +1,150 @@
+/* Container principal */
+.loja-container {
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 545px;
+}
+
+.carinhoTitulos{
+  text-align: center;
+  color: #333;
+}
+
+.nomeProduto{
+    text-align: left;
+}
+
+/* BOTÕES */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 5px;
+  transition: opacity 0.2s;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Cores Personalizadas */
+.btn-checkout {
+  background-color: #dd5f4c;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 20px;
+  
+}
+
+.btn-remover {
+  background-color: #dc3545;
+  color: white;
+  width: auto;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-left: auto;
+}
+
+.btn-confirmar {
+  background-color: #28a745;
+  color: white;
+  margin-top: 15px;
+}
+
+.btn-voltar {
+  background-color: #6c757d;
+  color: white;
+  margin-top: 10px;
+  width: auto;
+  padding: 10px 20px;
+}
+
+/* FORMULÁRIO */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-form {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* CARRINHO E CHECKOUT */
+.box-carrinho,
+.box-checkout {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lista-carrinho {
+  list-style: none;
+  padding: 0;
+}
+
+.item-carrinho {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  
+  
+  border: none;
+  box-shadow: none;
+  display: flex;
+
+  padding: 10px 0;
+}
+
+.item-carrinho span {
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* TEXTO DE SUCESSO */
+.sucesso-msg {
+  text-align: center;
+  margin-top: 50px;
+  color: #28a745;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 520px){
+  .box-carrinho,
+  .box-checkout{
+    padding: 14px;
+  }
+
+  .item-carrinho{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .btn-remover{
+    margin-left: 0;
+  }
+}

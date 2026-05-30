@@ -1,0 +1,144 @@
+#logo {
+  display: flex;
+  width: clamp(90px, 10vw, 140px);
+  height: auto;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+#but {
+  padding-left: 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#titulo {
+  font-size: clamp(32px, 3vw, 50px);
+  font-weight: bold;
+  margin: 0;
+  color: #444;
+  padding-top: 10px;
+}
+
+#subtitulo {
+  font-size: clamp(18px, 2vw, 30px);
+  color: #444;
+  margin: 0;
+  margin-left: 4px;
+}
+
+#container-forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 70vh;
+  padding: 20px;
+}
+
+.formCadastroLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: clamp(18px, 2vw, 28px);
+  border-radius: 10px;
+  background-color: #3d6472;
+
+  width: min(400px, 90vw);
+  max-width: 100%;
+  margin: 15px;
+}
+
+.formCadastroLogin button {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #b8cbd0;
+  height: 38px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.formCadastroLogin button:hover {
+  opacity: 1;
+}
+
+.formCadastroLogin input {
+  border-radius: 30px;
+  background-color: #E8E8E8;
+  height: 44px;
+  border: none;
+  font-size: 14px;
+  padding-left: 14px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#Link {
+  color: #212121e7;
+  text-decoration: none;
+  text-align: center;
+  height: 40px;
+  background-color: #b8cbd0;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.8;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#Link:hover {
+  opacity: 1;
+}
+
+
+/* Notebook menor / tablet */
+@media (max-width: 900px) {
+  #container-forms {
+    min-height: auto;
+    padding: 35px 20px;
+  }
+
+  #but {
+    padding-left: 20px;
+  }
+}
+
+
+/* Celular */
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  #logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #but {
+    padding-left: 0;
+  }
+
+  #container-forms {
+    padding: 25px 12px;
+  }
+
+  .formCadastroLogin {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -1,0 +1,131 @@
+# ================================
+# INSTALAÇÃO DO NODE.JS E FERRAMENTAS
+# ================================
+
+# Verificar se o Node.js está instalado
+node -v
+
+# Verificar se o npm está instalado
+npm -v
+
+# Instalar o json-server globalmente
+npm install -g json-server
+
+# Verificar se o json-server foi instalado
+npm json-server --version
+
+
+# ================================
+# CRIAR PROJETO REACT COM VITE
+# ================================
+
+# Criar projeto React com Vite
+npm create vite@latest meu-projeto -- --template react
+
+# Entrar na pasta do projeto
+cd meu-projeto
+
+# Instalar dependências do projeto
+npm install
+
+
+# ================================
+# INSTALAR JSON-SERVER NO PROJETO (OPCIONAL)
+# ================================
+
+# Instalar como dependência de desenvolvimento
+npm install --save-dev json-server
+
+
+# ================================
+# CRIAR ARQUIVO db.json
+# ================================
+
+# Windows (Prompt de Comando)
+echo {} > db.json
+
+# Linux / Mac
+touch db.json
+
+
+# ================================
+# RODAR O JSON-SERVER
+# ================================
+
+# Usando instalação global
+json-server --watch db.json --port 3001
+
+# Usando npx (sem instalação global)
+npx json-server --watch db.json --port 3001
+
+
+# ================================
+# RODAR O PROJETO REACT
+# ================================
+
+# Iniciar o servidor do Vite
+npm run dev
+
+
+# ================================
+# COMANDOS ÚTEIS
+# ================================
+
+# Instalar uma biblioteca
+npm install nome-da-biblioteca
+
+# Instalar Axios para consumir API
+npm install axios
+
+# Remover uma biblioteca
+npm uninstall nome-da-biblioteca
+
+# Atualizar dependências
+npm update
+
+# Ver scripts disponíveis no package.json
+npm run
+
+# Gerar build de produção
+npm run build
+
+# Visualizar build localmente
+npm run preview
+
+
+# ================================
+# EXEMPLO DE package.json (scripts)
+# ================================
+
+# Adicione em "scripts":
+# "server": "json-server --watch db.json --port 3001"
+
+# Depois execute:
+npm run server
+npm run dev
+
+se der tudo errado 
+npx vite . --host 127.0.0.1 --port 5180
+
+=================================================
+Para abrir o site (dois terminais).
+=================================================
+Backend ->
+
+node -v
+    Se não rodar baixar
+npm -v
+    Se não rodar baixar
+npm json-server -v
+    Se não rodar baixar
+npm start
+    Se não rodar conferir db.js
+
+Raíz ->
+
+npx vite . --host 127.0.0.1 --port 5180
+    Se não rodar: 
+        npm install
+    Se mesmo assim não for:
+        npm install vite --save-dev
+        npx clear-npx-cache

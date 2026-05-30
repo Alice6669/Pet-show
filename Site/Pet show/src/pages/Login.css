@@ -1,0 +1,30 @@
+
+#logo {
+  display: flex;
+  height: 140px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+header{
+  display: flex; 
+}
+#titulo{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  color: #444;
+  padding-top: 10px;
+}
+
+#subtitulo {
+  font-size: 30px;
+  color: #444;
+  margin: 0;
+  margin-left: 4px; 
+}
+
+#but{
+  padding-left: 50px;
+}

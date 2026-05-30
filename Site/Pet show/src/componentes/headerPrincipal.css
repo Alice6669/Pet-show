@@ -1,0 +1,160 @@
+/*#logo {
+    height: 100px;
+}
+#carrinho{
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.textLogo{
+    max-width: 150px;
+    color: #fff;
+    margin-right: 150px;
+}
+
+.textLogo h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#link{
+    text-decoration: none;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.conteinerHeader{
+    background-color: #393572;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 1px;
+}*/
+
+.conteinerHeader {
+    background-color: #393572;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 12px 30px;
+    gap: 25px;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+}
+
+.textLogo {
+    color: white;
+    min-width: 220px;
+}
+
+.textLogo h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.textLogo p {
+    font-size: 15px;
+    margin: 8px 0 0;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+#carrinho {
+    width: 55px;
+    height: auto;
+}
+
+#link:hover{
+    opacity: 1;
+}
+
+.ativo{
+    background-color: rgba(211, 72, 18, 0.993);
+    border-radius: 50%;
+}
+
+.icone-carrinho-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bolinha-carrinho {
+  position: absolute;
+  top: -8px; 
+  right: -10px; 
+  background-color: #dc3545; 
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%; 
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+}
+
+/*@media (max-width: 700px){
+    .conteinerHeader{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #link{
+        width: 100%;
+        max-width: 260px;
+        padding: 10px;
+    }
+}*/
+
+@media (max-width: 900px) {
+    .conteinerHeader {
+        flex-wrap: wrap;
+        padding: 15px;
+        gap: 12px;
+    }
+
+    .textLogo {
+        min-width: auto;
+        text-align: center;
+    }
+
+    #logo {
+        width: 90px;
+    }
+
+    #link {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    #carrinho {
+        width: 45px;
+    }
+}

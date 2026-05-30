@@ -1,0 +1,139 @@
+.passador img{
+    /*height: 50px;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.passador{
+    max-width: 70px;
+    min-width: 44px;
+    background-color: rgba(211, 72, 18, 0.993);
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    align-self: center;
+}
+
+.produtos img{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+li.produtosCarrocel{
+    border: 5px solid #333;
+    border-radius: 15px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 370px;
+    box-shadow: inset 0px -15px 0px rgba(255, 0, 0, 0.5);;
+    background-color: #fff;
+}
+
+li:nth-child(3){
+    margin-right: 0;
+}
+
+.carrocelDescontos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.promocao{
+    text-decoration: line-through;
+    color: red;
+}
+
+.button{
+    text-decoration: none;
+    background-color: rgba(211, 72, 18, 0.993);
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: rgba(190, 68, 19, 0.993);
+}
+
+.passador{
+    background-color: rgba(211, 72, 18, 0.993);
+    border-radius: 15px;
+}
+
+@media (max-width: 768px){
+    .carrocelDescontos{
+        align-items: stretch;
+    }
+
+    .passador{
+        max-width: 48px;
+    }
+
+    li.produtosCarrocel{
+        width: min(260px, 100%);
+    }
+}
+
+@media (max-width: 520px){
+    .carrocelDescontos{
+        flex-direction: column;
+    }
+
+    .passador{
+        width: 56px;
+        max-width: 56px;
+    }
+}
+
+/* Animações do Carrossel */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Classes que serão alternadas pelo React */
+.animar-right {
+  animation: slideInRight 0.4s ease-out forwards;
+}
+
+.animar-left {
+  animation: slideInLeft 0.4s ease-out forwards;
+}

@@ -1,0 +1,38 @@
+#tituloSobre{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+#imagemSobre{
+    display: block;
+    width: min(700px, 90%);
+    margin: 0 auto;
+    
+}
+
+main #sobre{
+   width: min(800px, 90%);
+    margin: 0 auto;
+}
+
+main #sobre p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main #sobre ul{
+    margin-top: 15px;
+    margin-left: 25px;
+    
+}
+
+main #sobre ul li{
+    margin-bottom: 5px;
+}
+
+#ulConteiner{
+    background-color: #a8a8a8;
+    border-radius: 15px;
+}
