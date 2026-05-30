@@ -82,7 +82,7 @@ Páginas principais da aplicação:
 - **`carrinho.jsx` / `carrinho.css`**: Carrinho de compras com cálculo de totais
 - **`DadosContato.jsx`**: Página de dados de contato e checkout
 - **`minhaConta.jsx` / `minhaConta.css`**: Perfil do usuário e histórico de compras
-- **`Fornecedor.jsx` / `Fornecedor.css`**: Painel do fornecedor para gerenciar produtos
+- **`Fornecedor.jsx` / `Fornecedor.css`**: Painel do funcionário para gerenciar produtos visivel apenas para eles
 - **`contato.jsx` / `contato.css`**: Formulário de contato/suporte
 - **`sobre.jsx` / `sobre.css`**: Página sobre a empresa Pet Show
 - **`erroPage.jsx` / `erroPage.css`**: Página 404 para rotas não encontradas
@@ -245,7 +245,7 @@ Veja `Site/Pet show/comandos.txt` para lista de comandos úteis de desenvolvimen
 1. **Visitante**: Visualiza produtos e blog
 2. **Novo Cliente**: Se cadastra no formulário
 3. **Cliente Autenticado**: Adiciona produtos ao carrinho, realiza compra
-4. **Fornecedor**: Gerencia seus produtos e estoque
+4. **Funcionários**: Gerencia os produtos e estoque
 
 ---
 
