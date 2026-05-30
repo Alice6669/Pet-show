@@ -272,7 +272,8 @@ ISC
 
 ## 👤 Autor
 
-**Alice6669** - [@Alice6669](https://github.com/Alice6669)
+**Alice Lacerda** - [@Alice6669](https://github.com/Alice6669)
+**Isadora Canuto** - [@IsaKnuto](https://github.com/IsaKnuto)
 
 ---
 
